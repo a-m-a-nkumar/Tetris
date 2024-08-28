@@ -35,19 +35,6 @@ To compile and run this project, you need:
     g++ -o tetris main.cpp game.cpp grid.cpp block.cpp position.cpp -lraylib -lopengl32 -lgdi32 -lwinmm
     ```
 
-    Using CMake:
-    ```bash
-    mkdir build
-    cd build
-    cmake ..
-    make
-    ```
-
-3. Run the game:
-    ```bash
-    ./tetris
-    ```
-
 ## Controls
 
 - **Left Arrow**: Move the block left
@@ -65,11 +52,3 @@ To compile and run this project, you need:
 - `position.cpp` and `position.h`: Represents the position of blocks on the grid.
 - `colors.h`: Contains color definitions used in the game.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
-## Acknowledgments
-
-- [raylib](https://www.raylib.com/) for the amazing library that makes game development accessible and fun.
-- The classic Tetris game for being an endless source of inspiration.
